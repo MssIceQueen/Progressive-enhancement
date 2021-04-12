@@ -39,9 +39,9 @@ h2{
     clear: left;
 }
 iframe{
-    margin: 100px;
     clear: left;
     display: block;
+    margin: 0 auto;
 }
 p{
     color: darkblue;
