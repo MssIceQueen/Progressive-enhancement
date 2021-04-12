@@ -1,5 +1,5 @@
 body{
-    max-width: 90%;
+    width: 90%;
     margin: auto;
     background: radial-gradient(rgb(187, 149, 25), rgb(29, 20, 90));
     background-image:url(field.jpg);
@@ -8,15 +8,15 @@ body{
     background-position-y: 100%;
     background-size: cover;
 }
+header>h1{
+    background-color: yellow;
+}
+h1+p{
+    font-weight: bold;
+}
 h1{
     color: darkblue;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-p1{
-    color: darkblue;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    word-spacing: 3px;
 }
 a:link, a:visited {
     color: darkblue;
@@ -30,15 +30,18 @@ a:hover, a:active {
   }
 
 img{
-
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
 h2{
     color: darkblue;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    clear: left;
 }
 iframe{
-    
-
+    float: left;
+    margin: 100px;
 }
 p{
     color: darkblue;
@@ -56,8 +59,8 @@ q{
   border-left: 3px dashed rgb(109, 108, 108);
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 80px;
-  padding-bottom:  80px;
+  margin-top: 80px;
+  margin-bottom:  80px;
   border-radius: 25px;
 }
 .villagers{
@@ -66,3 +69,33 @@ q{
 .farmer{
     border-left: 3px dashed yellow;
 }
+.good,.bad{
+    text-transform: capitalize;
+}
+.bad{
+    color: red;
+}
+.good{
+    color: green;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+table{
+    width: 100%;
+}
+tr:nth-child(odd){
+    background-color: grey;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: italic;
+    background-color: lightgray;
+    position: absolute;
+}
+
