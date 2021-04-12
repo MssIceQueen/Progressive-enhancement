@@ -28,7 +28,6 @@ a:hover, a:active {
     text-decoration: none;
     font-weight: bold;
   }
-
 img{
     float: left;
     margin-right: 100px;
@@ -40,18 +39,20 @@ h2{
     clear: left;
 }
 iframe{
-    float: left;
     margin: 100px;
+    clear: left;
+    display: block;
 }
 p{
     color: darkblue;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
+    font-size: 24px;
     word-spacing: 3px;
 }
 q{
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
   font-size: 160%;
   font-style: italic;
@@ -90,12 +91,3 @@ tr:nth-child(odd){
 tr:nth-child(even){
     background-color: white;
 }
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    font-style: italic;
-    background-color: lightgray;
-    position: absolute;
-}
-
